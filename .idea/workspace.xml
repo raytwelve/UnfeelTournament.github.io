@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="86d9d089-dbf2-47aa-9214-7607cb67cc30" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/agency.css" afterPath="$PROJECT_DIR$/css/agency.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="UnfeelTournament.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,23 +24,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4485">
-              <caret line="271" column="45" selection-start-line="271" selection-start-column="45" selection-end-line="271" selection-end-column="45" />
+            <state relative-caret-position="323">
+              <caret line="109" column="35" selection-start-line="109" selection-start-column="35" selection-end-line="109" selection-end-column="35" />
               <folding>
-                <element signature="e#18103#18109#0" expanded="true" />
+                <element signature="e#18122#18128#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agency.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="agency.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/agency.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6579">
-              <caret line="387" column="38" selection-start-line="387" selection-start-column="38" selection-end-line="387" selection-end-column="38" />
+            <state relative-caret-position="-760">
+              <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -53,8 +54,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/agency.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -353,12 +354,12 @@
       <workItem from="1479633158658" duration="1839000" />
       <workItem from="1479944773476" duration="128000" />
       <workItem from="1479945113487" duration="8000" />
-      <workItem from="1480204919779" duration="4651000" />
+      <workItem from="1480204919779" duration="5968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6626000" />
+    <option name="totallyTimeSpent" value="7943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -407,7 +408,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#18103#18109#0" expanded="true" />
+            <element signature="e#18122#18128#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -417,7 +418,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#18103#18109#0" expanded="true" />
+            <element signature="e#18122#18128#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -427,7 +428,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#18103#18109#0" expanded="true" />
+            <element signature="e#18122#18128#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -454,21 +455,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/agency.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4485">
-          <caret line="271" column="45" selection-start-line="271" selection-start-column="45" selection-end-line="271" selection-end-column="45" />
-          <folding>
-            <element signature="e#18103#18109#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-760">
+          <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/agency.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6579">
-          <caret line="387" column="38" selection-start-line="387" selection-start-column="38" selection-end-line="387" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="323">
+          <caret line="109" column="35" selection-start-line="109" selection-start-column="35" selection-end-line="109" selection-end-column="35" />
+          <folding>
+            <element signature="e#18122#18128#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
