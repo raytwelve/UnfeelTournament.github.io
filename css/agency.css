@@ -303,7 +303,17 @@ section h3.section-subheading {
   section {
     padding: 150px 0;
   }
+
+  header {
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
+   }
 }
+
 .service-heading {
   margin: 15px 0;
   text-transform: none;
@@ -371,6 +381,15 @@ section h3.section-subheading {
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
+  }
+
+  header {
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
   }
 }
 .timeline {
