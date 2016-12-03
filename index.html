@@ -184,7 +184,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <img src="img/gameplay1.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Gameplay Footage #1</h4>
@@ -197,23 +197,27 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                        <img src="img/gameplay2.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Gameplay Footage #2</h4>
                     </div>
                 </div>				
             </div>
-							<h4>To download the game: https://github.com/CS113-INF125-Project/Unfeel-Tournament<br />
-							<p></p>
-							1. Click "Clone or download"<br />
-							2. Click "Download ZIP"<br />
-							3. Unzip the "Unfeel-Tournament-master" folder.<br />
-							4. Click the "Unfeel-Tournament-master" folder.<br />
-							5. Click the "UnfeelTournament" folder.<br />
-							6. Click the "Assets" folder. <br />
-							7. Click "main.unity" <br />
-							</h4>
+            <div>
+							<h4>To download the game:</h4>
+                            <p>Go to: <a target="_blank" href="https://github.com/CS113-INF125-Project/Unfeel-Tournament">
+                                         https://github.com/CS113-INF125-Project/Unfeel-Tournament</a></p>
+							<ol>
+                                <li>Click "Clone or download"</li>
+                                <li>Click "Download ZIP"</li>
+                                <li>Unzip the "Unfeel-Tournament-master" folder</li>
+                                <li>Click the "Unfeel-Tournament-master" folder</li>
+                                <li>Click the "UnfeelTournament" folder</li>
+                                <li>Click the "Assets" folder</li>
+                                <li>Click "main.unity"</li>
+                            </ol>
+                </div>
         </div>
     </section>
 
@@ -426,16 +430,14 @@
                                 <!-- Project Details Go Here -->
                                 <h2>Gameplay Footage #1</h2>
                                 <p class="item-intro text-muted">Watch an emotional battle in a graveyard.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <p>
-                                    <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                                <ul class="list-inline">
-                                    <li>Date: July 2014</li>
-                                    <li>Client: Round Icons</li>
-                                    <li>Category: Graphic Design</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <div align="center" class="embed-responsive embed-responsive-16by9">
+                                    <!--PLAY/PAUSE: http://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video_js_prop-->
+                                    <video id="video1" class="embed-responsive-item">
+                                        <source src="assets/2016-11-30%2018-49-10.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                <p></p>
+                                <button type="button" class="btn btn-primary" onclick="playPause()">Play/Pause</button>
                             </div>
                         </div>
                     </div>
@@ -460,10 +462,14 @@
                             <div class="modal-body">
                                 <h2>Gameplay Footage #2</h2>
                                 <p class="item-intro text-muted">Watch an emotional battle in an icey arena.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                                <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <div align="center" class="embed-responsive embed-responsive-16by9">
+                                    <!--PLAY/PAUSE: http://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video_js_prop-->
+                                    <video id="video2" class="embed-responsive-item">
+                                        <source src="assets/2016-11-30%2018-54-02.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                <p></p>
+                                <button type="button" class="btn btn-primary" onclick="playPause2()">Play/Pause</button>
                             </div>
                         </div>
                     </div>
@@ -603,6 +609,32 @@
 
     <!-- Theme JavaScript -->
     <script src="js/agency.js"></script>
+
+    <!-- PLAY/PAUSE VIDEO 1 -->
+    <script>
+        // Play/pause video on click
+        var myVideo = document.getElementById("video1");
+
+        function playPause() {
+            if (myVideo.paused)
+                myVideo.play();
+            else
+                myVideo.pause();
+        }
+    </script>
+
+    <!-- PLAY/PAUSE VIDEO 2 -->
+    <script>
+        // Play/pause video on click
+        var myVideo2 = document.getElementById("video2");
+
+        function playPause2() {
+            if (myVideo2.paused)
+                myVideo2.play();
+            else
+                myVideo2.pause();
+        }
+    </script>
 
 </body>
 
